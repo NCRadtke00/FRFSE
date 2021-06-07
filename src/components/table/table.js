@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { DataGrid } from "@material-ui/data-grid";
 import "./table.css";
 
-// went with class component to display my easy to use table.
+// went with class component to display my easy to use table and control state
 class Table extends Component {
   constructor(props) {
     super(props);
@@ -26,17 +26,16 @@ class Table extends Component {
       console.log(e);
     }
   }
-  //unmount not needed for this example
   render() {
-    // As requested we will filters out 'null' names, sort the data by listId, as well as sort it by name. 
+    // As requested we will filters out 'null' names, sort the data by listId, as well as sort it by name.
     const items = this.state.list
       .filter((item) => item.name)
       .sort(function (a, b) {
         return a.listId - b.listId || +a.name.slice(4) - +b.name.slice(4);
       });
-    const sortedByName = items.filter((item) => item.listId);
+    const sorted = items.filter((item) => item.listId);
 
-    //GridData, was chosen becuase I think it's provides an easy to use table that has built in sort and serach options. How griddata works is columns need some style added here vs in a css page
+    //GridData, was chosen becuase I think it provides an easy to use table that has built in sort and serach options. for more informaiton on it please see readme.
     const columns = [
       {
         field: "listId",
@@ -61,12 +60,12 @@ class Table extends Component {
       },
     ];
     return (
-      // Displays items in sorted table by listId and name, also gives a great search function and allows for ascending and descending sort
+      // Displays items in sorted table by listId and name, also gives a great search function and allows for ascending and descending sort ect
       <div className="dataGrid">
         <h4>Sorted data for fetch rewards front-end challenge</h4>
         <h5>click on table head to search and sort data</h5>
         <DataGrid
-          rows={sortedByName}
+          rows={sorted}
           columns={columns}
           pageSize={25}
           loading={this.state.loading}
