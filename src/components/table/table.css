@@ -1,0 +1,56 @@
+.dataGrid {
+  height: 580px;
+  width: 40%;
+  padding-top: 40px;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+@media screen and (max-width: 1300px) {
+  .dataGrid {
+    width: 50%;
+    padding-top: 40px;
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .dataGrid {
+    width: 60%;
+    padding-top: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .dataGrid {
+    width: 70%;
+    padding-top: 10px;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .dataGrid {
+    width: 80%;
+    padding-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .dataGrid {
+    width: 90%;
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+@media screen and (max-width: 575px) {
+  .dataGrid {
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+}

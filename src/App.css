@@ -1,0 +1,20 @@
+:root {
+  --header-height: 3rem;
+
+  /*========== Colors ==========*/
+  --text-color: #707070;
+  --body-color: rgba(214, 214, 214, 0.775);
+
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+.App {
+  text-align: center;
+}
+body {
+  margin: var(--header-height) 0 0 0;
+  background-color: var(--body-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
