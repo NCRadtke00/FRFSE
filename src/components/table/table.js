@@ -63,7 +63,9 @@ class Table extends Component {
       // Displays items in sorted table by listId and name, also gives a great search function and allows for ascending and descending sort ect
       <div className="dataGrid">
         <h4>Sorted data for fetch rewards front-end challenge</h4>
-        <h5>click on table head to search and sort data</h5>
+        <h6>
+          You can click on table head to search and sort data, using this will override the preset sort of listId and name
+        </h6>
         <DataGrid
           rows={sorted}
           columns={columns}
