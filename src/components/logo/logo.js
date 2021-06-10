@@ -8,8 +8,8 @@ function Logo() {
       <div className="logo__contents">
         <img
           className="logo"
-          src="https://sometextsite.wpengine.com/wp-content/uploads/2021/04/DSN-Logo-2-03.svg"
-          alt="fetch-rewards-logo"
+          src="https://badgerhacks.github.io/static/media/Fetch_Rewards_Horizontal_Logo_transparent.d70705d7.png"
+          alt="fr-logo"
         />
       </div>
     </div>
