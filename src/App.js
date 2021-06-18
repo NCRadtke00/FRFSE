@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import Table from "./components/table/table";
 import Logo from "./components/logo/logo";

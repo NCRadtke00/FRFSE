@@ -1,0 +1,48 @@
+Frontend Engineer (Remote)
+at Fetch Rewards (View all jobs)
+United States
+(You must be located in the US.)
+Who We Are:
+We reward shoppers for digitizing their shopping experience. 
+Our mission is to delight the world’s shoppers with a free smartphone app that is easy, smart and fun.
+Why Join the Fetch Family?
+
+We make it better for users even when that's difficult for us
+We empower people with information and trust
+We challenge ideas, not people
+We think bigger and keep building
+We find ways to bring the fun to Fetch!
+
+We're committed to building an empowered and inclusive community of innovative and passionate people. As a growing organization, we need team players who can go above and beyond their individual responsibilities to help our company build towards its vision. If you are a creative, hard-working, and fun-seeking person interested in working with a close-knit group of highly talented people, this is the right place for you.
+
+Fetch Rewards is an equal employment opportunity employer.
+The Role!
+We are looking for a Frontend Engineer You will build and maintain world class web applications for our customer and external partners working directly with our backend services. Success in this role requires the ability to take on challenging problems while designing and developing amazing solutions with a user-centric focus.
+In your tool-bag:
+Flexibility to implement a feature from either a highly specific design OR a bare bones idea that needs thought & iteration
+Ability to strike the right balance between product design and technology to create the best possible solution
+Familiarity with functional and/or object-oriented programming
+Ability to optimize poorly performing code.
+Ability to explain both short and long-term solutions with trade-offs
+Effective communication, including the ability to translate and explain technical issues to non-technical team members
+You have experience with:
+Front end frameworks (React, Angular, Vue, Svelt)
+Front end Styling and layout (CSS, HTML, Sass or Less)
+Deep understanding of JavaScript or TypeScript
+Design System Implementation
+Responsive UI Design
+Application State Management
+Version control system (Git)
+Test writing and quality assurance
+Bonus points:
+Full-stack development (Kotlin/Java, Javascript/Node, Python/Django, etc)
+Messages queue and event streaming (Kafka, Kinesis, Redis Streams) 
+Continuous development 
+Experience with the automation of testing, building, and deploying frontend solutions
+Data-Driven Design
+Charting, Dashboarding, and Report Generation
+Asynchronous or Reactive Programming
+In-memory data stores and caches (Redis, Memcache)
+Understanding of the complexity and failure domains of micro-services and distributed architectures, and how these can impact end-user experiences.
+Undergraduate or graduate degree in computer science, engineering or mathematics
+Love of Dogs! . . . Or just tolerance. We're a very canine-friendly workplace.
